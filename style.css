@@ -1,3 +1,30 @@
+/* .products::-webkit-scrollbar{
+    display: none;
+}
+
+.categories::-webkit-scrollbar{
+    display: none;
+}
+
+.populars::-webkit-scrollbar{
+    display: none;
+}
+
+.shader{
+    background: linear-gradient(to right bottom, #69628a, #040309);
+} */
+
+
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .products::-webkit-scrollbar{
     display: none;
 }
@@ -11,5 +38,7 @@
 }
 
 .shader{
+    background: -webkit-gradient(linear, left top, right bottom, from(#69628a), to(#040309));
+    background: -o-linear-gradient(left top, #69628a, #040309);
     background: linear-gradient(to right bottom, #69628a, #040309);
 }
